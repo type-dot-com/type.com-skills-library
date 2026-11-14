@@ -5,15 +5,18 @@
     "": {
       "name": "bigcommerce-qbo-order-sync",
       "dependencies": {
-        "@type-dot-com/sdk": "latest",
+        "@type-dot-com/sdk": "0.2.0",
         "neverthrow": "8.2.0",
-        "zod": "4.4.3",
+        "zod": "4.6.6",
       },
       "devDependencies": {
-        "@types/bun": "latest",
-        "typescript": "latest",
+        "@types/bun": "1.4.3",
+        "typescript": "7.0.2",
       },
     },
+  },
+  "overrides": {
+    "zod": "4.6.6",
   },
   "packages": {
     "@orpc/client": ["@orpc/client@1.14.1", "", { "dependencies": { "@orpc/shared": "1.14.1", "@orpc/standard-server": "1.14.1", "@orpc/standard-server-fetch": "1.14.1", "@orpc/standard-server-peer": "1.14.1" } }, "sha512-uTtM1DGQvlXVXuqHF2LXWG0Sykr3gcqJ/ufbUDvnpBbAiSYZqXAlHUBptUbjEu7xS+hjy/s+n3C7kjT2Ou+D8w=="],
@@ -88,7 +91,7 @@
 
     "undici-types": ["undici-types@8.12.2", "", {}, "sha512-VoMeD2O0KdHhcn+oPqOrpivN+7aDOklVSwOLD7JNjbzV1CboAFek9IFOXnreoufTUtAsCsOK0iETiERPNR/fDA=="],
 
-    "zod": ["zod@4.4.3", "", {}, "sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ=="],
+    "zod": ["zod@4.6.6", "", {}, "sha512-4UmzQUF5fxvfcYHlbjBmejU+w+hbDnWFx4aS8kBx7nPBHcO2SqPbpAG8snbdg+Xse4pRefR98hgjFgIMCI/UhA=="],
 
     "@types/node/undici-types": ["undici-types@8.9.0", "", {}, "sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg=="],
   }
